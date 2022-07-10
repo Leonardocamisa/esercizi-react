@@ -1,3 +1,4 @@
-function sum(a, b) {
-    return a + b;
-  }
+const sum = (a, b) => {
+  const res = a + b;
+  return <h2>{res}</h2>;
+};
